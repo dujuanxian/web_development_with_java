@@ -15,7 +15,13 @@ public class LoginController extends HttpServlet{
 
         if (username.toLowerCase().equals("thoughtworks") && password.equals("111")){
 
-            RequestDispatcher dispatcher = request.getRequestDispatcher("home.html");
+            User user = new User();
+            user.setUsername(username);
+            user.setPassword(password);
+
+            request.setAttribute("user", user);
+
+            RequestDispatcher dispatcher = request.getRequestDispatcher("home.jsp");
             dispatcher.forward(request, response);
         }
     }

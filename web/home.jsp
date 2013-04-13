@@ -15,7 +15,7 @@
     </div>
 
     <div class="content">
-        <h1>Welcome ThoughtWorks !</h1>
+        <h1>Welcome ${user.username} !</h1>
     </div>
 </body>
 </html>
