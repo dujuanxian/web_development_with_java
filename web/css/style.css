@@ -1,0 +1,89 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: url('/img/titlebg.jpg');
+    font-family: Arial,sanf-serif;
+}
+
+form {
+    margin: 100px auto 0 auto;
+    width: 400px;
+    height: 300px;
+    background: rgba(222, 222, 222, 0.2);
+    border-radius: 8px;
+}
+
+form .form_content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #ccc;
+}
+
+form .form_content input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #ddd;
+    border: 0;
+    box-shadow: inset 0 1px 3px #555;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+form .form_content .submit-button {
+    text-align: right;
+    margin-top: 30px;
+}
+
+form .form_content .submit-button input{
+    width: 80px;
+    height: 35px;
+    background: -webkit-gradient(linear,center top, center bottom,from(#e38585), to(#b15d5d));
+    border: 0;
+    border-radius: 16px;
+    font-family: Arial,sanf-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.content {
+    background: rgba(222, 222, 222, 0.2);
+    height: 100%;
+    min-height: 600px;
+    color: #ddd;
+    text-align: center;
+}
+
+.content h1 {
+    padding-top: 100px;
+}
+
+.header {
+    height: 60px;
+    margin: 10px 160px;
+}
+
+.header .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.header .logout {
+    text-align: right;
+    width: 80%;
+    color: #e38585;
+    font-size: 14px;
+    float: right;
+    height: 60px;
+    margin-top: -10px;
+}
+
+
+
+
